@@ -1,5 +1,7 @@
 # Tugas-3-Sistem-File-(File-System-)
-## Nama
+## Nama  : Anugrah Tegar Noverzha
+## NIM   : 09011282328029
+## Kelas : SK3B
 
 ### 1. Melihat Peralatan I/O, Character Device pada Sistem Komputer
 Untuk melihat daftar perangkat ini, gunakan command berikut ls -l /dev:
