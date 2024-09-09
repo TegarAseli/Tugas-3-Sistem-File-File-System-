@@ -25,26 +25,41 @@ Membuat file dataku yang berisi nama, NIM, dan alamat di sub direktori Januari:
 
 Menyalin file dataku ke sub direktori Februari dan Maret:
 
+![Screenshot 2024-09-09 192328](https://github.com/user-attachments/assets/c1977d35-7aa1-4cc3-9c20-d94b025e8313)
 ![Screenshot 2024-09-09 192418](https://github.com/user-attachments/assets/a677a88c-f154-474d-907c-4d4a1c874845)
 ![Screenshot 2024-09-09 192427](https://github.com/user-attachments/assets/144099d4-d30f-4a6a-a41f-feaf8d4d6a6d)
 
+### 4. Mengubah Izin Akses File dataku pada Sub Direktori Januari agar Group dan Others Dapat Melakukan Write
+Untuk mengubah izin akses file dataku agar group dan others dapat melakukan write, gunakan comman berikut:
 
+![Screenshot 2024-09-09 192803](https://github.com/user-attachments/assets/d6ef67dc-22a0-4bdd-8ac9-bee4ce36c1cc)
 
+### 5. Mengubah Izin Akses File dataku pada Sub Direktori Februari sehingga User dapat Melakukan Write, Read, dan Execute, tetapi Group dan Others Hanya Bisa Read dan Execute
+Untuk mengubah izin file dataku di Februari sehingga user dapat write, read, dan execute, sedangkan group dan others hanya bisa read dan execute dapat menggunakan command berikut:
 
+![Screenshot 2024-09-09 192933](https://github.com/user-attachments/assets/3b544df5-19d8-416f-a767-b3893c023806)
 
+### 6. Mengubah Izin Akses File dataku pada Sub Direktori Maret sehingga Semua dapat Melakukan Write, Read, dan Execute
+Untuk mengubah izin file dataku agar semua pengguna dapat melakukan write, read, dan execute, dapat menggunakan command berikut:
 
+![Screenshot 2024-09-09 193034](https://github.com/user-attachments/assets/c8afd9c3-7fe3-482e-8239-1ef0118a0d56)
 
+### 7.  Menghapus Direktori Maret
+Penghapusan direktori merupakan tindakan yang tidak dapat dibatalkan, yang berarti bahwa semua data dalam direktori tersebut akan hilang. Ini biasanya dilakukan jika direktori dan isinya tidak lagi diperlukan.
 
+Berikut ini adalah command untuk menghapus direktori maret:
 
+![Screenshot 2024-09-09 193140](https://github.com/user-attachments/assets/3b661c13-13f1-4cb8-9668-e61ee5d2cedc)
 
+### 8. Mengubah Kepemilikan Sub Direktori Februari sehingga User dan Group Hanya Dapat Melakukan Read, dan Mencoba Membuat Direktori Baru haha pada Sub Direktori Februari
 
+Pertama-tama Ubah izin direktori februari sehingga user dan group hanya dapat melakukan read menggunakan comman berikut:
 
+![Screenshot 2024-09-09 193415](https://github.com/user-attachments/assets/112efde1-3eb5-49ec-99b0-07c6423044ba)
 
+Karena tadi sudah mengubah izin direktori februari sehingga user dan group hanya dapat melakukan read, sehingga percobaan untuk membuat direktori baru akan gagal:
 
-
-
-
-
+![Screenshot 2024-09-09 193613](https://github.com/user-attachments/assets/5e608180-ce6f-46a8-82be-68548ccb1cdb)
 
 
 
