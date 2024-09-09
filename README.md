@@ -61,14 +61,19 @@ Karena tadi sudah mengubah izin direktori februari sehingga user dan group hanya
 
 ![Screenshot 2024-09-09 193613](https://github.com/user-attachments/assets/5e608180-ce6f-46a8-82be-68548ccb1cdb)
 
+### 9. Modifikasi Umask dari File dataku pada Sub Direktori Januari Menjadi 027 dan Menentukan Nilai Default-nya:
+umask 027 adalah command promp yang membuat file baru memiliki izin akses default 640 rw-r-- dan direktori baru akan memilki izin default 750 rwxr-x-. Karena membuat file dataku sebelumnya pada sub direktori januari, user dapat menggunakan command prompt chmod untuk mengubah izinnya secara manual. Masukkan command chmod 640 januari/dataku, ini akan membuat file dataku memiliki izin akses 640 rw-r--
 
+![Screenshot 2024-09-09 200254](https://github.com/user-attachments/assets/6fe48698-fd09-48cd-8662-6ecc184a48de)
 
+### 10.  Buatlah link dari file dataku ke file dataku.ini dan file dataku.juga dan dengan perintah 
+list perhatikan berapa link yang terjadi ?
 
+Untuk membuat hard link, gunakan perintah (ln latihan5/januari/dataku latihan5/januari/dataku.ini ) dan (ln latihan5/januari/dataku latihan5/januari/dataku.juga)
 
+Pada outputnya, Akan terlihat jumlah link pada kolom kedua yang akan menunjukkan angka 3, yang berarti file dataku sekarang memiliki 3 hard link. Berikut adalah commandnya:
 
-
-
-
+![Screenshot 2024-09-09 200713](https://github.com/user-attachments/assets/9faddc92-d4a2-424d-acc3-ce28284e87ca)
 
 
 
