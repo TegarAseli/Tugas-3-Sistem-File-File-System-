@@ -1,4 +1,5 @@
 # Tugas-3-Sistem-File-File-System-
+### Nama
 
 ### 1. Melihat Peralatan I/O, Character Device pada Sistem Komputer
 Untuk melihat daftar perangkat ini, gunakan command berikut ls -l /dev:
